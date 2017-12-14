@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <window x="-0" y="50" w="1443" h="828">
+    <editing-scenario>aLlf2haaaaa</editing-scenario>
+    <view>task</view>
+    <overview/>
+    <change-tracking/>
+    <status-display>basic</status-display>
+    <task-view>
+      <split-view-divider-position>807</split-view-divider-position>
+      <outline x="0" y="198.5" w="807" h="673">
+        <column name="Violations" width="20"/>
+        <column name="Notes" width="20"/>
+        <column name="Title" width="288"/>
+        <column name="Effort" width="70"/>
+        <column name="Start" width="100"/>
+        <column name="End" width="100"/>
+        <column name="Prerequisites" width="100"/>
+        <column name="Assigned" width="100"/>
+        <expanded-items idrefs="t214 t7 t133 t61 t80 t216 t213 t63"/>
+        <selected-items-at-filter-time idrefs="t221 t210 t199 t215 t204 t209 t224 t213 t197 t202 t218 t207 t222 t211 t200 t216 t205 t220 t198 t214 t203 t219 t208 t223 t212 t201 t217 t206"/>
+      </outline>
+      <gantt-view x="210610.5" y="198.5" w="619" h="673">
+        <view-mode>actual</view-mode>
+        <dependency-lines/>
+        <constraints/>
+        <show-project-end/>
+        <task-bar-label task-type="group" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="300">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+        <offtime-display>none</offtime-display>
+      </gantt-view>
+    </task-view>
+    <resource-view>
+      <split-view-divider-position>306</split-view-divider-position>
+      <outline x="0" y="0" w="291" h="707">
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="150"/>
+        <column name="#" width="75"/>
+      </outline>
+      <timeline x="-20" y="0" w="1089" h="707">
+        <offtime-display>none</offtime-display>
+        <show-project-end/>
+        <task-bar-label task-type="group" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key/>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="300">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+      </timeline>
+    </resource-view>
+    <calendar>
+      <split-view-divider-position>290</split-view-divider-position>
+      <outline x="0" y="0" w="275" h="683">
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="160"/>
+        <column name="Custom Work Week" width="20"/>
+        <column name="Schedule Exception" width="20"/>
+      </outline>
+    </calendar>
+    <network-view>
+      <network-view>
+        <task-table-style>Title
+Start:
+End:
+Effort:</task-table-style>
+        <milestone-table-style>Title
+End</milestone-table-style>
+        <group-table-style>Title
+Start:
+End:</group-table-style>
+      </network-view>
+    </network-view>
+  </window>
+  <project>
+    <title>iCome项目计划</title>
+    <next-task-id>225</next-task-id>
+    <next-resource-id>6</next-resource-id>
+    <scenario id="aLlf2haaaaa" name="Actual" filename="Actual.xml"/>
+    <date-display dates="true" times="true" seconds="false"/>
+    <numbering-style>wbs</numbering-style>
+    <critical-path-slack>0</critical-path-slack>
+    <currency-format>¥1,234.56</currency-format>
+    <duration-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
+    <effort-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
+    <base-style>
+      <style/>
+    </base-style>
+    <column-title-style>
+      <style>
+        <value key="font-name">HelveticaNeue-Medium</value>
+        <value key="font-size">12</value>
+        <value key="font-weight">6</value>
+        <value key="paragraph-alignment">center</value>
+      </style>
+    </column-title-style>
+    <note-style>
+      <style>
+        <value key="font-fill">
+          <color space="gg22" w="0.409218"/>
+        </value>
+        <value key="font-size">12</value>
+      </style>
+    </note-style>
+    <standard-task-style>
+      <style/>
+    </standard-task-style>
+    <overdue-task-style>
+      <style/>
+    </overdue-task-style>
+    <completed-task-style>
+      <style/>
+    </completed-task-style>
+    <group-task-style>
+      <style>
+        <value key="font-name">HelveticaNeue-Medium</value>
+        <value key="font-weight">6</value>
+      </style>
+    </group-task-style>
+    <milestone-task-style>
+      <style/>
+    </milestone-task-style>
+    <resource-style>
+      <style/>
+    </resource-style>
+    <not-editable-style>
+      <style>
+        <value key="font-fill">
+          <color space="gg22" w="0.409218"/>
+        </value>
+      </style>
+    </not-editable-style>
+    <subscribe-refresh>0</subscribe-refresh>
+    <leveling>
+      <constrains-completion-date/>
+    </leveling>
+    <page-adornment>
+      <master-page-headers>
+        <header location="left">
+          <text>
+            <p/>
+            <p>
+              <run>
+                <lit>                  </lit>
+              </run>
+              <run>
+                <lit><cell variable="OPDocumentTitleVariableIdentifier"/></lit>
+              </run>
+            </p>
+            <p>
+              <run>
+                <lit>                </lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <header location="right">
+          <text>
+            <p/>
+            <p>
+              <run>
+                <lit>                  </lit>
+              </run>
+              <run>
+                <lit><cell variable="OPPrintJobTimestampVariableIdentifier"/></lit>
+              </run>
+            </p>
+            <p>
+              <run>
+                <lit>                </lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <footer location="left">
+          <text>
+            <p/>
+            <p>
+              <run>
+                <lit>                  </lit>
+              </run>
+              <run>
+                <lit><cell variable="OPDocumentFilenameVariableIdentifier"/></lit>
+              </run>
+            </p>
+            <p>
+              <run>
+                <lit>                </lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+        <footer location="right">
+          <text>
+            <p/>
+            <p>
+              <run>
+                <lit>                  </lit>
+              </run>
+              <run>
+                <lit><cell variable="OPPageNumberVariableIdentifier"/></lit>
+              </run>
+            </p>
+            <p>
+              <run>
+                <lit>                </lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+      </master-page-headers>
+    </page-adornment>
+  </project>
+</omniplan>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Lifed" date="2017-12-14T07:15:52.379Z" timestamp="2017-12-14T07:15:52.379Z">
+    <change idref="t201" to="t61" to-position="3" resolved="yes">
+      <change idref="t201" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t201" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-17T16:00:00.000Z"/>
+      <change idref="t201" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t201" attribute="title" type="string" to="后台高保真原型"/>
+    </change>
+    <change idref="t211" to="t201" to-position="0" resolved="yes">
+      <change idref="t211" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t211" attribute="title" type="string" to="系统基础设置"/>
+    </change>
+    <change idref="t203" to="t201" to-position="1" resolved="yes">
+      <change idref="t203" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t203" attribute="title" type="string" to="战投"/>
+    </change>
+    <change idref="t204" to="t201" to-position="2" resolved="yes">
+      <change idref="t204" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t204" attribute="title" type="string" to="组队"/>
+    </change>
+    <change idref="t206" to="t201" to-position="3" resolved="yes">
+      <change idref="t206" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t206" attribute="title" type="string" to="注资"/>
+    </change>
+    <change idref="t205" to="t201" to-position="4" resolved="yes">
+      <change idref="t205" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t205" attribute="title" type="string" to="经营"/>
+    </change>
+    <change idref="t207" to="t201" to-position="5" resolved="yes">
+      <change idref="t207" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t207" attribute="title" type="string" to="分享"/>
+    </change>
+    <change idref="t208" to="t201" to-position="6" resolved="yes">
+      <change idref="t208" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t208" attribute="title" type="string" to="退出"/>
+    </change>
+    <change idref="t209" to="t201" to-position="7" resolved="yes">
+      <change idref="t209" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t209" attribute="title" type="string" to="系统角色设置"/>
+    </change>
+    <change idref="t210" to="t201" to-position="8" resolved="yes">
+      <change idref="t210" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t210" attribute="title" type="string" to="系统规则设置"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T07:22:19.235Z" timestamp="2017-12-14T07:22:19.235Z">
+    <change idref="t212" to="t201" to-position="8" resolved="yes">
+      <change idref="t212" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t212" attribute="title" type="string" to="系统权限设置"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T07:25:07.243Z" timestamp="2017-12-14T07:25:07.243Z">
+    <change idref="t213" to="t201" to-position="0" resolved="yes">
+      <change idref="t213" attribute="internalPrerequisitesString" type="string" to="201FS"/>
+      <change idref="t213" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t213" attribute="title" type="string" to="业务模块"/>
+    </change>
+    <change idref="t211" from="t201" from-position="1" to="t201" to-position="7" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T07:25:20.373Z" timestamp="2017-12-14T07:25:20.373Z">
+    <change idref="t213" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t213" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t213" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t213" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t213" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t213" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t213" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t213" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t213" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t213" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t213" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t213" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t203" from="t201" from-position="1" to="t213" to-position="0" resolved="yes"/>
+    <change idref="t204" from="t201" from-position="2" to="t213" to-position="1" resolved="yes"/>
+    <change idref="t206" from="t201" from-position="3" to="t213" to-position="2" resolved="yes"/>
+    <change idref="t205" from="t201" from-position="4" to="t213" to-position="3" resolved="yes"/>
+    <change idref="t207" from="t201" from-position="5" to="t213" to-position="4" resolved="yes"/>
+    <change idref="t208" from="t201" from-position="6" to="t213" to-position="5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T07:25:48.219Z" timestamp="2017-12-14T07:25:48.219Z">
+    <change idref="t214" to="t201" to-position="1" resolved="yes">
+      <change idref="t214" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t214" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t214" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t214" attribute="title" type="string" to="系统模块"/>
+    </change>
+    <change idref="t211" from="t201" from-position="1" to="t214" to-position="0" resolved="yes"/>
+    <change idref="t209" from="t201" from-position="2" to="t214" to-position="1" resolved="yes"/>
+    <change idref="t212" from="t201" from-position="3" to="t214" to-position="2" resolved="yes"/>
+    <change idref="t210" from="t201" from-position="4" to="t214" to-position="3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T07:27:04.516Z" timestamp="2017-12-14T07:27:04.516Z">
+    <change idref="t216" to="t201" to-position="2" resolved="yes">
+      <change idref="t216" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t216" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t216" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t216" attribute="title" type="string" to="系统设置模块"/>
+    </change>
+    <change idref="t214" attribute="title" type="string" from="系统模块" to="支持模块" resolved="yes"/>
+    <change idref="t211" from="t214" from-position="0" to="t216" to-position="0" resolved="yes"/>
+    <change idref="t209" from="t214" from-position="1" to="t216" to-position="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T07:32:54.685Z" timestamp="2017-12-14T07:32:54.685Z">
+    <change idref="t210" attribute="title" type="string" from="系统规则设置" to="业务规则设置" resolved="yes"/>
+    <change idref="t212" attribute="title" type="string" from="系统权限设置" to="业务权限设置" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T07:33:09.378Z" timestamp="2017-12-14T07:33:09.378Z">
+    <change idref="t209" attribute="title" type="string" from="系统角色设置" to="系统角色/权限设置" resolved="yes"/>
+    <change idref="t212" attribute="title" type="string" from="业务权限设置" to="业务角色/权限设置" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T07:37:15.939Z" timestamp="2017-12-14T07:37:15.939Z">
+    <change idref="t203" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+    <change idref="t203" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2017-12-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t204" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t205" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t206" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t207" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T08:38:10.141Z" timestamp="2017-12-14T08:38:10.141Z">
+    <change idref="t201" from="t61" from-position="3" to="t80" to-position="1" resolved="yes"/>
+    <change idref="t201" attribute="title" type="string" from="后台高保真原型" to="后端" resolved="yes"/>
+    <change idref="t203" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-22T00:00:00.000Z" to="2017-12-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t208" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T08:45:28.561Z" timestamp="2017-12-14T08:45:28.561Z">
+    <change idref="t219" to="t63" to-position="0" resolved="yes">
+      <change idref="t219" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t219" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-14T00:00:00.000Z"/>
+      <change idref="t219" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t219" attribute="title" type="string" to="前端"/>
+    </change>
+    <change idref="t201" from="t80" from-position="1" to="t63" to-position="1" resolved="yes"/>
+    <change idref="t185" from="t63" from-position="0" to="t219" to-position="0" resolved="yes"/>
+    <change idref="t184" from="t63" from-position="1" to="t219" to-position="1" resolved="yes"/>
+    <change idref="t80" from="t63" from-position="2" to="t219" to-position="2" resolved="yes"/>
+    <change idref="t81" from="t63" from-position="3" to="t219" to-position="3" resolved="yes"/>
+    <change idref="t82" from="t63" from-position="4" to="t219" to-position="4" resolved="yes"/>
+    <change idref="t83" from="t63" from-position="5" to="t219" to-position="5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T09:35:43.753Z" timestamp="2017-12-14T09:35:43.753Z">
+    <change idref="t203" attribute="effort" type="real" from="144000" to="115200" resolved="yes"/>
+    <change idref="t204" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2017-12-23T00:00:00.000Z" resolved="yes"/>
+    <change idref="t205" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2017-12-30T00:00:00.000Z" resolved="yes"/>
+    <change idref="t206" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2017-12-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t207" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2018-01-03T00:00:00.000Z" resolved="yes"/>
+    <change idref="t208" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2018-01-05T00:00:00.000Z" resolved="yes"/>
+    <change idref="t220" to="t213" to-position="6" resolved="yes">
+      <change idref="t220" attribute="noEarlierThanConstraintDate" type="date" to="2017-12-16T00:00:00.000Z"/>
+      <change idref="t220" attribute="title" type="string" to="资源交易"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T09:36:10.693Z" timestamp="2017-12-14T09:36:10.693Z">
+    <change idref="t220" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T09:36:21.792Z" timestamp="2017-12-14T09:36:21.792Z">
+    <change idref="t220" attribute="effort" type="real" from="0" to="28800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T09:39:37.729Z" timestamp="2017-12-14T09:39:37.729Z">
+    <change idref="t201" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-17T16:00:00.000Z" to="2017-12-15T00:00:00.000Z" resolved="yes"/>
+    <change idref="t213" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2017-12-16T00:00:00.000Z" resolved="yes"/>
+    <change idref="t213" attribute="internalPrerequisitesString" type="string" from="201FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T09:42:32.672Z" timestamp="2017-12-14T09:42:32.672Z">
+    <change idref="t209" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+    <change idref="t209" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2017-12-08T00:00:00.000Z" resolved="yes"/>
+    <change idref="t210" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2018-01-06T00:00:00.000Z" resolved="yes"/>
+    <change idref="t211" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+    <change idref="t211" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2018-01-01T00:00:00.000Z" resolved="yes"/>
+    <change idref="t212" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+    <change idref="t212" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2017-12-01T00:00:00.000Z" resolved="yes"/>
+    <change idref="t214" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2018-01-01T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+</changelog>
