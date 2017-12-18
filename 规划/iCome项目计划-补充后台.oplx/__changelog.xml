@@ -172,4 +172,7 @@
     <change idref="t212" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2017-12-01T00:00:00.000Z" resolved="yes"/>
     <change idref="t214" attribute="noEarlierThanConstraintDate" type="date" from="2017-12-14T00:00:00.000Z" to="2018-01-01T00:00:00.000Z" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Lifed" date="2017-12-14T10:18:08.602Z" timestamp="2017-12-14T10:18:08.602Z">
+    <change idref="t210" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
+  </task-change-set>
 </changelog>

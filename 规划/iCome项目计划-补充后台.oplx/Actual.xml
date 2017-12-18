@@ -1489,7 +1489,7 @@
   </task>
   <task id="t210">
     <title>业务规则设置</title>
-    <effort>28800</effort>
+    <effort>144000</effort>
     <start-constraint-date>2018-01-06T00:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2018-01-06T00:00:00.000Z</start-no-earlier-than>
   </task>

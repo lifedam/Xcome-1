@@ -8,7 +8,7 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>807</split-view-divider-position>
-      <outline x="0" y="198.5" w="807" h="673">
+      <outline x="0" y="346" w="807" h="673">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="288"/>
@@ -17,10 +17,10 @@
         <column name="End" width="100"/>
         <column name="Prerequisites" width="100"/>
         <column name="Assigned" width="100"/>
-        <expanded-items idrefs="t214 t7 t133 t61 t80 t216 t213 t63"/>
-        <selected-items-at-filter-time idrefs="t221 t210 t199 t215 t204 t209 t224 t213 t197 t202 t218 t207 t222 t211 t200 t216 t205 t220 t198 t214 t203 t219 t208 t223 t212 t201 t217 t206"/>
+        <expanded-items idrefs="t201 t7 t185 t45 t61 t214 t80 t133 t216 t213 t63"/>
+        <selected-items-at-filter-time idrefs="t221 t210 t199 t215 t204 t209 t224 t213 t197 t202 t218 t207 t222 t211 t200 t216 t205 t220 t198 t225 t203 t214 t219 t208 t223 t212 t201 t217 t206"/>
       </outline>
-      <gantt-view x="210610.5" y="198.5" w="619" h="673">
+      <gantt-view x="210610.5" y="346" w="619" h="673">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -141,7 +141,7 @@ End:</group-table-style>
   </window>
   <project>
     <title>iCome项目计划</title>
-    <next-task-id>225</next-task-id>
+    <next-task-id>226</next-task-id>
     <next-resource-id>6</next-resource-id>
     <scenario id="aLlf2haaaaa" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
